@@ -4,6 +4,26 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <PackageId>MoneyExtensionFH</PackageId>
+    <Version>1.0.0</Version>
+    <License>MIT</License>
+    <Authors>Cleriston.hora</Authors>
+    <Company>cleriston.hora</Company>
+    <PackageDescription>Extenção para converter decimal para inteiro</PackageDescription>
+    <Description>Extenção para converter decimal para inteiro</Description>
+    <RepositoryUrl>https://github.com/cleriston-hora/money-extensions</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/cleriston-hora/money-extensions</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageTargs>money;int;decimal</PackageTargs>    
+    <Title>MoneyExtensionFH</Title>
+    <Summary>Extenção para converter decimal para inteiro</Summary>
+
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\Media\icon.png" Pack="True" PackagePath="\"/>
+  </ItemGroup>
 
 </Project>
